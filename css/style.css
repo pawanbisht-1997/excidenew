@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+
+    --bs-indigo: #6610f2;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #f5f5f5;
+}
+.glbl-btn {
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    display: inline-block;
+    padding: 18px 30px;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+.glbl-btn .fa{
+    margin-right: 8px;
+}
+
+.flex{
+    display: flex;
+}
+.topheader {
+    padding: 15px 0px;
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+}
+.topheader .social_links .fa-brands{
+    color: #fff;
+}
+.topheader .social_links li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.topheader .address span{
+    font-size: 16px;
+}
+
+
+.mid-menu {
+    padding: 20px 0;
+
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+.mid_menu a {
+    font-size: 23px;
+    display: inline-block;
+    padding-left: 10px;
+    color: #000;
+}
+.mail-phon {
+    display: flex;
+    justify-content: end;
+}
+
+/* nav .menu{
+    position: absolute;
+    box-shadow: 0 0 20px -10px rgba(0,0,0,.8);
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    left: 0;
+    right: 0;
+    top: -25px;
+} */
+
+
+.menu li{
+ display: inline-block;
+ margin-left: 63px;
+}
+    .menu li:last-child a {
+        color: #fff;
+        margin-top: 0px;
+        font-size: 16px;
+        padding: 13px 25px;
+    }
+.menu li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #5f5f5f;
+}
+.mid-menu .logo {
+    width: 85%;
+}
+
+
+/* banner  */
+.banner{
+    background-image: url(../img/banner2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+ .banner .banner_contant h1 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 70px;
+    font-weight: 800;
+}
+ form {
+    background-color: #fff;
+    padding: 0px 0;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+
+}
+ form h4 {
+    padding: 22px;
+    background-color: #fa5a1d;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ form  .form-body {
+    padding: 25px;
+}
+#floatingTextarea {
+    height: 100px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fa591d63;
+    outline: 0;
+    box-shadow: unset;
+}
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: .65;
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
+    color: #fa5c1d;
+}
+ form input[type="submit"] {
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    width: 100%;
+    margin: auto;
+    display: block;
+    color: #fff;
+    padding: 15px;
+    margin-top: 22px;
+    border: unset;
+    outline: unset;
+    font-size: 23px;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.banner_contant h1 span {
+    color: #fa201f;
+    text-decoration: underline;
+}
+
+/* about  */
+.about{
+    padding: 60px 0px;
+    width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+.form-floating>.form-control, .form-floating>.form-select {
+
+    height: 50px !important;
+}
+.form-floating>label {
+
+    font-size: 15px;
+}
+#floatingTextarea {
+    height: 100px !important;
+}
+.about p{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 26px;
+    color: #636363;
+}
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.about .glbl-btn {
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    display: inline-block;
+    padding: 15px 55px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.about .about-body {
+    background-color: #fff;
+    box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.1);
+    padding: 35px 45px 40px;
+    border-radius: 10px;
+}
+.about .about-body .left {
+    width: 90%;
+}
+
+
+
+/* certificate */
+.certificate{
+    width: 100%;
+    float: left;
+   
+    padding: 75px 0px;
+    background-color: #fff;
+    box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.1);
+}
+.certificate .left img{
+    border-radius: 15px;
+}
+.certificate .right {
+    padding-left: 35px;
+}
+.certificate .right  h4 {
+    line-height: 40px;
+}
+.certificate .right h3{
+    color: #fa171f;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.certificate .right h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #3b3a3a;
+}
+.certificate .right h2{
+    margin-bottom: 22px;
+}
+
+.certificate .right .glbl-btn {
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    display: inline-block;
+    padding: 13px 30px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 35px;
+}
+
+/* why choose us  */
+.why_choose_us{
+    background: #fff;
+    width: 100%;
+    float: left;
+box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.1);
+    padding: 60px 0px;
+    text-align: center;
+}
+.why_choose_us h2 {
+
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.why_choose_us .box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 10px;
+    outline: 1px solid #ff000085;
+    outline-offset: -6px;
+    height: 245px;
+    box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.1);
+}
+.why_choose_us .box h5{
+    margin-top: 20px;
+}
+
+/* catergories */
+.catergories{
+    width: 100%;
+    float: left;
+    padding: 60px 0px;
+}
+.catergories .box{ 
+    background-color: #fff;
+    box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.1);
+    padding: 22px 20px;
+    border-radius: 8px;
+
+}
+.catergories .box{
+    overflow: hidden;
+
+}
+.catergories .box img{
+    margin: auto;
+    display: block;
+    margin-bottom: 28px;
+    transition: all ease-in-out 0.5s;
+}
+.catergories  h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #ff1000;
+    text-transform: uppercase;
+   
+}
+.catergories ul li{
+    display: inline-block;
+}
+.catergories ul li i.fa.fa-star {
+    color: #ffca00;
+    font-size: 15px;
+}
+
+.catergories .glbl-btn {
+    background: linear-gradient(274deg,#fa171f,#fa5f1d);
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+}
+.catergories .box img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .catergories h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.model{
+    width: 90%;
+}
+.modal-header {
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    display: block;
+}
+.modal-header h1{
+    font-size: 34px;
+}
+.modal form{
+    width: 100%;
+}
+.modal form .form-body {
+    padding: 5px;
+}
+.modal-header h5{
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+}
+button.btn-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+    border-radius: 100%;
+    background-image: unset;
+    background-color: #fff;
+}
+button.btn-close .fa{
+    color: #fa171f;
+}
+.btn-close:hover {
+    color: unset;
+    text-decoration: none;
+    opacity: 1;
+}
+.why_choose_us .glbl-btn {
+    background: linear-gradient(270deg,#fa171f,#fa5f1d);
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 35px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+}
+.cta{
+    width: 100%;
+    float: left;
+    padding: 60px 0px;
+    background-image:url(../img/batmobileBoy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin: 50px 0px 0px;
+}
+.cta .cta-body{
+        font-size: 40px;
+        color: #575757;
+        font-weight: 600;
+}
+.cta .cta-body a {
+    color: #414141;
+}
+.cta .cta-body  h5 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.cta .cta-body h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f00;
+}
+.cta .cta-body h5 {
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-top: 1px solid #ff3b00c7;
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}
